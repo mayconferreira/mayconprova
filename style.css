@@ -1,0 +1,57 @@
+﻿.conteudo {
+    background:#ccf;
+    border:0.2em solid #99c;
+    border-top-left-radius:0em;
+    border-top-right-radius:0em;
+    display:block;
+    margin-bottom:2em;
+    overflow:hidden;
+    position:relative;
+}
+.conteudo fieldset{
+    border:none;
+    margin:0;
+    padding:0;
+}
+
+#txtName {
+    color:#003;
+    font-family:helvetica,arial;
+    font-size:100%;
+
+}
+.conteudo .titulo {
+    display:block;
+    padding:0.5em 0 0.3em;
+    width:100%;
+}
+.conteudo .titulo .text {
+    color:#003;
+    font-family:helvetica,arial;
+    font-size:100%;
+    font-weight:normal;
+    margin:0 0.5em;
+    white-space:normal;
+    display:block;zoom:1;
+}
+.conteudo .formulario {
+    background: #eef;
+    border-top:0.2em solid #99c;
+    padding:1em 0.5em;
+}
+
+#tblListar{
+    width:100%;
+    border:solid 1px;
+    text-align:left;
+    border-collapse:collapse; 
+}
+
+#tblListar tbody tr{
+    border:solid none;
+    height:30px;
+}
+
+#tblListar thead {
+    background: #ccf;
+}
